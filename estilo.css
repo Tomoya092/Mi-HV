@@ -1,0 +1,180 @@
+/* Informacion de etiquetas*/
+
+body {
+  background-color: rgba(231, 235, 242, 0.9);
+  font-family: "Montserrat", sans-serif;
+}
+
+li{
+  line-height: 24px;
+}
+
+/* Contenedor principal */
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: azure;
+  width: 1200px;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgb(0, 0, 0, 0.1);
+}
+
+.info-general{
+  padding: 20px 80px;
+}
+
+.txtorange{
+  color: orange;
+}
+
+.timelab{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: gray;
+}
+
+/* Descripcion */
+
+.des {
+  margin-bottom: 40px;
+}
+
+.deshdv {
+  font-size: 14px;
+  font-weight: 1000;
+}
+
+/* Proyectos */
+
+.titulo-seccion-prin{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 45px;
+  margin-bottom: -10px;
+}
+
+.listproy{
+  width: 600px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 17px;
+}
+
+.ptsproy{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: rgb(137, 131, 131);
+}
+
+.enlaceproy{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: gray;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Experiencia Laboral */
+
+.listexp{
+  width: 600px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 17px;
+  
+}
+
+.explabtit{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+/*Estudios*/
+
+.listedu{
+  width: 600px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 17px;
+}
+
+.timeedu{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(105, 101, 101);
+}
+
+
+/* informacion Secundaria */
+
+.infosec{
+  background-color: rgb(54, 54, 145);
+  padding: 40px 0;
+}
+
+.titulat{
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 50px;
+}
+
+.cont, .skillt, .skillb{
+  margin-left: 30px;
+}
+
+/* Contactos */
+
+.tipocont{
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-right: 5px;
+}
+
+.infocont{
+  color: orange;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.lista-lat{
+  padding-left: 17px;
+}
+
+.lista-lat > li{
+  color: orange;
+}
+
+.elelistlat{
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
